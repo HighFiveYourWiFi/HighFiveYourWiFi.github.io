@@ -17,11 +17,11 @@ body {
 
 .nav-tab-menu__items,
 .top-nav__dropdown ul {
-  background: var(--surface-02);
+  background: var(--surface-01);
 }
 
 .secondary-nav {
-  background: linear-gradient(90deg, #271f2f 0, #322435 50%, #271f2f);
+  background: var(--surface-02);
 }
 
 .nav-tab--active__link {
