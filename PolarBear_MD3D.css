@@ -1,0 +1,10 @@
+:root {
+  --body-bg: url(https://raw.githubusercontent.com/HighFiveYourWiFi/FNP_MD3D/db3ecdd5d3d485e6147f22bff6f498fcc053053c/polar_bear_bg.svg)
+      repeat top left / 250px 250px,
+    #222228;
+  --top-nav-bg: #222224;
+  --top-nav-dropdown-menu-bg: #222224;
+  --secondary-nav-bg: #2c2b2f;
+  --secondary-nav-tab-active-text-decoration: underline slategray 2px;
+  --secondary-nav-tab-hover-text-decoration: underline slategray 2px;
+}
