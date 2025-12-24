@@ -2,11 +2,15 @@
   --polarbear-bg: url(https://highfiveyourwifi.github.io/polar_bear_bg.svg)
       repeat top left / 250px 250px,
     #171f2c;
+  --bg-1: #171f2c;
   --bg-2: #101927;
+  --bg-3: #0a111b;
   --surface-01: #171f2c;
   --surface-02: #0a111b;
   --compact-search-bg: var(--bg-2);
   --quick-search-border-radius: 10px;
+  --torrent-group-bg: var(--bg-3);
+  --torrent-group-header-bg: var(--bg-1);
 }
 
 body {
