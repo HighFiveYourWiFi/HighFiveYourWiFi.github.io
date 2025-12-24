@@ -606,11 +606,11 @@ body {
   filter: brightness(1.1);
 }
 
-.featured-carousel__slide .torrent-card {
+.torrent-card {
   transition: transform 0.3s ease;
 }
 
-.featured-carousel__slide .torrent-card:hover {
+.torrent-card:hover {
   transform: scale(1.01);
 }
 
@@ -619,5 +619,21 @@ body {
 }
 
 .user-stat-card:hover {
+  transform: scale(1.01);
+}
+
+.trending-poster {
+  transition: transform 0.3s ease;
+}
+
+.trending-poster:hover {
+  transform: scale(1.01);
+}
+
+.torrent-search--poster__result {
+  transition: transform 0.3s ease;
+}
+
+.torrent-search--poster__result:hover {
   transform: scale(1.01);
 }
