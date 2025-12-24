@@ -10,6 +10,11 @@ body {
   background: var(--polarbear-bg);
 }
 
+.panel__tab:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
 .featured-carousel__slide .torrent-card {
   transition: transform 0.3s ease;
 }
