@@ -47,8 +47,14 @@ body {
   border-color: transparent;
 }
 
+.panel__tab {
+  background-color: var(--data-table-th-bg);
+  border-bottom: 2px solid var(--data-table-th-bg);
+}
+
 .panel__tab:hover {
   filter: brightness(1.1);
+  border-radius: 5px;
 }
 
 .torrent-card__link:hover {
