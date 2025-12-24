@@ -1,0 +1,19 @@
+:root {
+  --polarbear-bg: url(https://highfiveyourwifi.github.io/polar_bear_bg.svg)
+      repeat top left / 250px 250px,
+    #171f2c;
+  --surface-01: #171f2c;
+  --surface-02: #0a111b;
+}
+
+body {
+  background: var(--polarbear-bg);
+}
+
+.featured-carousel__slide .torrent-card {
+  transition: transform 0.3s ease;
+}
+
+.featured-carousel__slide .torrent-card:hover {
+  transform: scale(1.01);
+}
