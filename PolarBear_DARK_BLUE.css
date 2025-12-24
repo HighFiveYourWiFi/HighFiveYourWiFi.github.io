@@ -11,6 +11,7 @@
   --quick-search-border-radius: 10px;
   --torrent-group-bg: var(--bg-3);
   --torrent-group-header-bg: var(--bg-1);
+  --user-stat-card-bg: var(--bg-3);
   --user-stat-card-border-radius: 10px;
 }
 
