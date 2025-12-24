@@ -10,9 +10,30 @@ body {
   background: var(--polarbear-bg);
 }
 
+.form__button--text:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: transparent;
+}
+
+.form__standard-icon-button:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: transparent;
+}
+
 .panel__tab:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    cursor: pointer;
+  filter: brightness(1.1);
+}
+
+.torrent-card__link:hover {
+  filter: brightness(1.1);
+}
+
+.featured-carousel__slide .torrent-card {
+  transition: transform 0.3s ease;
+}
+
+.featured-carousel__slide .torrent-card:hover {
+  transform: scale(1.01);
 }
 
 .featured-carousel__slide .torrent-card {
