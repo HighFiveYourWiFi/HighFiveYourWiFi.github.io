@@ -83,7 +83,7 @@
   --breadcrumb-hover-fg: #ddd;
   --breadcrumb-inactive-text-decoration: none;
 
-  --button-filled-bg: var(--color-dark-blue);
+  --button-filled-bg: hsla(240, 10%, 30%, 0.25);
   --button-filled-border: none;
   --button-filled-border-radius: 9999px;
   --button-filled-fg: white;
@@ -151,7 +151,7 @@
   --icon-button-border-radius: 9999px;
   --icon-button-fg: currentColor;
 
-  --icon-button-filled-bg: var(--color-green);
+  --icon-button-filled-bg: hsla(240, 10%, 30%, 0.25);
   --icon-button-filled-fg: white;
   --icon-button-filled-border: none;
 
@@ -869,11 +869,11 @@ body>header {
   filter: brightness(1.1);
 }
 
-.featured-carousel__slide .torrent-card {
+.torrent-card {
   transition: transform 0.3s ease;
 }
 
-.featured-carousel__slide .torrent-card:hover {
+.torrent-card:hover {
   transform: scale(1.01);
 }
 
@@ -883,5 +883,29 @@ body>header {
 }
 
 .user-stat-card:hover {
+  transform: scale(1.01);
+}
+
+.secondary-nav {
+  border-radius: 6px;
+}
+
+#easyuploader-dropzone {
+  background: var(--bg-1) !important;
+}
+
+.trending-poster {
+  transition: transform 0.3s ease;
+}
+
+.trending-poster:hover {
+  transform: scale(1.01);
+}
+
+.torrent-search--poster__result {
+  transition: transform 0.3s ease;
+}
+
+.torrent-search--poster__result:hover {
   transform: scale(1.01);
 }
