@@ -10,6 +10,14 @@ body {
   background: var(--polarbear-bg);
 }
 
+.top-nav__username--highresolution:hover {
+  filter: brightness(1.15);
+}
+
+.top-nav--right__icon-link:hover {
+  filter: brightness(1.1);
+}
+
 .form__button--text:hover {
   background: rgba(255, 255, 255, 0.05);
   border-color: transparent;
@@ -22,6 +30,7 @@ body {
 
 .panel__tab:hover {
   filter: brightness(1.1);
+  border-radius: 5px;
 }
 
 .torrent-card__link:hover {
