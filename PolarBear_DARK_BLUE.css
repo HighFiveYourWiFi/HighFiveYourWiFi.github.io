@@ -4,6 +4,7 @@
     #171f2c;
   --surface-01: #171f2c;
   --surface-02: #0a111b;
+  --compact-search-bg: var(--bg-2);
   --quick-search-border-radius: 10px;
 }
 
