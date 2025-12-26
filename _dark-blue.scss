@@ -289,7 +289,7 @@
 
   --scrollbar-color: #ffffff19;
 
-  --secondary-nav-bg: var(--bg-3);
+  --secondary-nav-bg: hsla(215, 46%, 7%, 0.75);
   --secondary-nav-tab-fg: #aaa;
   --secondary-nav-tab-bg: inherit;
   --secondary-nav-tab-active-text-decoration: underline #777 2px;
@@ -593,12 +593,10 @@ a:hover {
 
 body {
   margin: 0 auto;
-  max-width: 1440px;
   background: var(--polarbear-bg);
 }
 
 main {
-  margin: 0 2rem;
   padding: 2rem;
   background-color: var(--body-bg-secondary);
   border-radius: 10px;
@@ -766,7 +764,7 @@ main:has(> article > section.meta) {
 
 .quick-search {
   top: 66px;
-  height: 32px;
+  height: 34px;
 }
 
 body>header {
@@ -781,8 +779,7 @@ body>header {
 }
 
 .secondary-nav {
-  margin-left: 2rem;
-  width: calc(100% - 4rem);
+  width: 100%;
   position: relative;
 }
 
@@ -884,10 +881,6 @@ body>header {
 
 .user-stat-card:hover {
   transform: scale(1.01);
-}
-
-.secondary-nav {
-  border-radius: 6px;
 }
 
 #easyuploader-dropzone {
