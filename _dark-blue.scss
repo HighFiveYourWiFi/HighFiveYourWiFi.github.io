@@ -853,7 +853,7 @@ body>header {
 }
 
 .form__button--filled:hover {
-    background: rgba(255, 255, 255, 0.05);
+    filter: brightness(1.2);
 }
 
 .form__button--outlined:hover {
