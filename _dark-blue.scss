@@ -85,12 +85,12 @@
 
   --button-filled-bg: hsla(240, 10%, 30%, 0.25);
   --button-filled-border: none;
-  --button-filled-border-radius: 9999px;
+  --button-filled-border-radius: 10px;
   --button-filled-fg: white;
 
   --button-outlined-bg: inherit;
   --button-outlined-border: 1px solid var(--bg-4);
-  --button-outlined-border-radius: 9999px;
+  --button-outlined-border-radius: 10px;
   --button-outlined-fg: currentColor;
 
   --button-text-bg: inherit;
