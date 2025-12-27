@@ -580,10 +580,19 @@ body {
   border-radius: 16px;
 }
 
+.form__button {
+    transition: all 0.2s ease-in-out;
+}
+
 .form__button--text:hover,
 .form__standard-icon-button:hover {
   background: rgba(255, 255, 255, 0.05);
   border-color: transparent;
+}
+
+.form__button--outlined:hover {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Interactive Hover Effects
