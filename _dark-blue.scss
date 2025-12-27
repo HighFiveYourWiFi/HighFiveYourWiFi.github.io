@@ -843,9 +843,26 @@ body>header {
   filter: brightness(1.1);
 }
 
+.form__button {
+    transition: all 0.2s ease-in-out;
+}
+
 .form__button--text:hover {
   background: rgba(255, 255, 255, 0.05);
   border-color: transparent;
+}
+
+.form__button--filled:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.form__button--outlined:hover {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.form__button:hover .fa-download {
+    color: var(--color-green);
 }
 
 .form__standard-icon-button:hover {
