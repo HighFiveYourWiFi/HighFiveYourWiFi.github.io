@@ -593,10 +593,12 @@ a:hover {
 
 body {
   margin: 0 auto;
+  max-width: 1600px;
   background: var(--polarbear-bg);
 }
 
 main {
+  margin: 0 2rem;
   padding: 2rem;
   background-color: var(--body-bg-secondary);
   border-radius: 10px;
